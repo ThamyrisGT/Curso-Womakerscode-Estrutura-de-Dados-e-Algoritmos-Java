@@ -31,7 +31,6 @@ public class VetorObjetos {
 		
 		this.aumentaCapacidade();
 		
-		//mover todos os elementos
 		for (int i=this.tamanho-1; i>=posicao; i--){
 			this.elementos[i+1] = this.elementos[i];
 		}
